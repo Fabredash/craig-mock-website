@@ -1,7 +1,8 @@
 body{
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif; 
+    font-family: 'Merriweather', serif;
+    color: #40514E; 
 }
 
 h1{
@@ -23,36 +24,89 @@ h3{
     color: #11999E;
 }
 
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.profile{
+    height: 600px;
+}
+
+.intro{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+    margin-bottom: 300px;
+}
+
+.skills{
+    height: 800px;
+}
+
+.skills-title{
+    margin-top: 100px;
+}
+
+.skill-row-1{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 50px;
+}
+
+.skill-row-2{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 50px;
+}
+
 .profile-pic{
-    height: 250px;
-    width: 250px;
+    width: 12%;
     border-radius: 100%;
+    margin-top: 100px;
 }
 
 .skill-picture-1{
-    height: 250px;
-    width: 250px;
+    width: 25%;
     border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+
 }
 
 .skill-picture-2{
-    height: 250px;
-    width: 250px;
+    width: 25%;
     border-radius: 100%;
+    float: right;
+    margin-left: 30px;
 }
 
 .top-container{
     background-color: #E4F9F5;
     position: relative;
     padding-top: 132px;
-}
-
-.middle-container{
-  
+    height: 900px;
 }
 
 .bottom-container{
-
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
 .top-cloud{
@@ -70,4 +124,39 @@ h3{
 
 .footer-link{
     color: #11999E;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    width: 50%;
+    margin: 100px auto 0 auto;
+    color: #EAF6F6;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Montserrat;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
+	background-color:#2bc4ad;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
