@@ -108,6 +108,10 @@ a:hover{
     height: 900px;
 }
 
+.middle-container{
+    height: 2350px;
+}
+
 .bottom-container{
     background-color: #66BFBF;
     padding: 50px 0 20px;
