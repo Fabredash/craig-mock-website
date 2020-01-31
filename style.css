@@ -28,7 +28,7 @@ hr{
     border: dotted #EAF6F6 6px;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 65px auto;
 }
 
 a{
@@ -45,23 +45,10 @@ a:hover{
     width: 350px;
 }
 
-.profile{
-    height: 600px;
-}
-
 .intro{
     width: 30%;
     margin: 0 auto 0 auto;
     line-height: 2;
-    margin-bottom: 300px;
-}
-
-.skills{
-    height: 800px;
-}
-
-.skills-title{
-    margin-top: 100px;
 }
 
 .skill-row-1{
@@ -104,13 +91,9 @@ a:hover{
 .top-container{
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 132px;
-    height: 900px;
+    padding-top: 40px;
 }
 
-.middle-container{
-    height: 2350px;
-}
 
 .bottom-container{
     background-color: #66BFBF;
@@ -120,7 +103,7 @@ a:hover{
 .footer-link{
     color: #11999E;
     padding: 30px;
-    margin-top: 30px;
+
 }
 
 .contact-message{
@@ -145,13 +128,9 @@ a:hover{
 	font-size:20px;
 	padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+    text-shadow:0px 1px 0px #2f6627;
+    opacity: 0.5;
+    transition: 0.5s;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
-	background-color:#2bc4ad;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+.myButton:hover {opacity: 1;}
+
